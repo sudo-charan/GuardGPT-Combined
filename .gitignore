@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Dataset, models, cache (large / generated)
+data/
+cache/
+models/
+harm_only_400k_dataset.json
+*.index
+
+# Audit logs
+logs/
+*.jsonl
+
+# Environment / secrets
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
